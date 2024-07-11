@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #115763;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+  }
+.cancel-btn {
+    background-color: #cb1326;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+.cancel-btn:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+.header{
+    margin: 20px ;
+    margin-left: 500px;
+}
+.html-btn{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.html-btn:hover{
+    background-color: #000000;
+    cursor: pointer;
+
+}
+.css-btn{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.css-btn:hover{
+    background-color: #000000;
+    cursor: pointer;
+
+}
+.javascript-btn{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.javascript-btn:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+.timer-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .countdown {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .timer-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .timer-svg circle {
+    transform: rotate(-90deg);
+    transform-origin: center;
+  }
+
+question
